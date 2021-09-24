@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #eeedeb;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  padding: 2rem 0rem 1rem 0rem;
+}
+.genreList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.genreButton {
+  margin: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #f4f1f1;
+  background-color: #71bdb9;
+}
+
+.container {
+  border: 1px solid #dedcdc;
+  padding: 0.7rem;
+  margin: 0.5rem;
+}
+
+.musicName {
+  font-size: 23px;
+  text-transform: capitalize;
+}
+
+.musicContainer {
+  width: 50%;
+  margin: auto;
+}
